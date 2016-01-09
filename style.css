@@ -1,0 +1,103 @@
+/* css file that contains all the classes in the project and the design for it*/
+/* font, and text align for h1,h2*/
+h1,h2{
+	text-align: center;
+	font-family: "Georgia";
+}
+/* h1-h5 definitions*/
+h1 	{
+		color:rgb(0,100,0);
+		font-size: 45px;
+	}
+/* define purpel color for h2*/
+h2  {
+		color:rgb(100,20,100);
+	}
+h3	{
+		text-align: left;
+		font-family: "Georgia";
+		color: orange;
+	}
+h4{
+	float: right;
+	color:red;
+	}	
+h5{
+	text-align: left;
+	float: left;
+	color: red;
+}
+a{
+	color:red; 
+	font-size: 20px; 
+	margin: 25px;
+}
+/* define fint size for class afont*/
+.afont{
+	font-size: 50px;
+}
+
+body{
+	/*background-image: url(images/original.jpg);*/
+}
+/* paragraph def for the web*/
+p {
+	font-size: 14px;
+	line-height: 19px; 
+	margin-bottom: 19px;
+}
+
+li{
+	color: blue;
+}
+
+/* img class for picture float and margin used in onion.html*/
+.img {
+	float:left;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+/* image def class, used in second_article.html*/
+.imgone{
+	float:left;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	margin: 0 auto;
+}
+/* class for image dec in dolphininfo.html*/
+.dinfo{
+	float:right;
+	width: 250px;
+	height:150px;
+}
+
+.dimage{
+	float:left;
+}
+.dolphin{
+	float:left;
+}
+/*video float to right*/
+video {
+	float: right;
+}
+
+iframe {
+	float:right;
+	height: 150px;
+	width: 200px;
+}
+/*lable defenitions*/
+label{
+		text-transform:uppercase;
+		color: orange;
+		font-weight: bold;
+		padding: 4px;
+		font-size:20px;
+		background-color:black;
+	}
+.emphasis{
+	color: red;
+	font-size: 20px;
+}
